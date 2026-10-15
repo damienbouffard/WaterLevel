@@ -1,0 +1,42 @@
+{
+  "upload_type": "software",
+  "title": "Swiss lake water levels in the dry summer of 2026: code, report and figures",
+  "description": "<p>Code (Jupyter notebooks), report and figures analysing the record low lake levels in Switzerland in summer 2026: lake level climatology since 1970, reconstructed inflow and the role of glaciers and lake regulation, Simstrat surface temperature and evaporation, and SWOT satellite levels of small lakes.</p><p>Third-party input data (FOEN, MeteoSwiss, CAMELS-CH, Simstrat via Alplakes, SWOT via Alplakes, swisstopo) are not included in this archive; the notebooks download them from the original providers (see README).</p>",
+  "creators": [
+    {
+      "name": "Bouffard, Damien",
+      "affiliation": "Eawag, Swiss Federal Institute of Aquatic Science and Technology; University of Lausanne",
+      "orcid": "0000-0002-2005-9718"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "lake level",
+    "drought",
+    "Switzerland",
+    "glaciers",
+    "lake regulation",
+    "evaporation",
+    "Simstrat",
+    "SWOT",
+    "Alplakes"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/damienbouffard/WaterLevel",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.15025258",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5194/essd-18-6527-2026",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

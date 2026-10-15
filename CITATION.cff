@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or report, please cite it as below."
+title: "Swiss lake water levels in the dry summer of 2026: code, report and figures"
+authors:
+  - family-names: Bouffard
+    given-names: Damien
+    orcid: "https://orcid.org/0000-0002-2005-9718"
+    affiliation: "Eawag, Swiss Federal Institute of Aquatic Science and Technology; University of Lausanne"
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/damienbouffard/WaterLevel"
+keywords: [lake level, drought, Switzerland, glaciers, evaporation, Simstrat, SWOT]

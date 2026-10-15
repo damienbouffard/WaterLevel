@@ -1,6 +1,11 @@
-% Swiss lake water levels in the dry summer of 2026
-% Damien Bouffard (Eawag & UNIL)
-% 30 September 2026
+---
+title: "Swiss lake water levels in the dry summer of 2026"
+author: "Damien Bouffard"
+affiliations:
+  - "Eawag, Swiss Federal Institute of Aquatic Science and Technology, Kastanienbaum, Switzerland"
+  - "Institute of Earth Surface Dynamics, University of Lausanne, Switzerland"
+date: "30 September 2026"
+---
 
 ## If you have only 20 seconds
 
@@ -97,6 +102,7 @@ In a normal summer, evaporation is a minor term in the water budget of the large
 ## Small lakes seen from space
 
 It is also important to follow small lakes and reservoirs. Yet, most of them have no gauge at all. Since 2023 the SWOT satellite has been measuring their water level every few weeks. Compared with the FOEN gauge on Lake Sils, the satellite agrees within about 2 cm (Figure 10, in the Methods). For small lakes, 2026 can only be compared with 2023, 2024 and 2025, but they show the same pattern as the large lakes (Figure 9). Between 8 August and 22 September, 2026 was lower than all three previous years at 24 of the 32 natural lakes. 
+
 ![](figures/swot/anomaly_lakes.png)
 
 *Figure 9. Small lakes seen by SWOT: how far the level was from the 2023 to 2025 average between 8 August and 22 September, in 2026 (red) and in each earlier year (grey).*
@@ -106,7 +112,7 @@ It is also important to follow small lakes and reservoirs. Yet, most of them hav
 
 The water levels and river flows come from the Federal Office for the Environment (FOEN, [data.bafu.admin.ch](https://data.bafu.admin.ch/en/)), which provides daily values for 26 lakes and for the rivers leaving them, back to 1970. Precipitation and temperature come from the MeteoSwiss open data. The description of the watersheds (their size, their altitude and how much of them is covered by glaciers) comes from the CAMELS-CH database (Höge et al., 2023). Lake surface temperatures come from the Simstrat model run operationally by [Alplakes](https://www.alplakes.eawag.ch). For small lakes without any gauge, water levels measured by the SWOT satellite were collected through Alplakes.
 
-For each lake, the current year's level is compared with the level on the same day in every year since 1970. Only a few lakes are shown here; plots for all of them are in the Git repository. The code was written with the help of AI. All 2026 values are provisional and may still be revised by the data providers.
+For each lake, the current year's level is compared with the level on the same day in every year since 1970. Only a few lakes are shown here; plots for all of them, the code and the data are in the Git repository ([github.com/damienbouffard/WaterLevel](https://github.com/damienbouffard/WaterLevel)). The code was written with the help of AI. All 2026 values are provisional and may still be revised by the data providers.
 
 ## Methods
 
@@ -173,6 +179,7 @@ Water levels from the SWOT lake product were collected through Alplakes, convert
 * SWOT (NASA and CNES) lake product, via Alplakes: [alplakes.eawag.ch](https://www.alplakes.eawag.ch)
 * Lake outlines and areas: FOEN, VECTOR25 lake layer, via map.geo.admin.ch
 * Swiss border: swisstopo, swissBOUNDARIES3D
+* Code, data and figures: [github.com/damienbouffard/WaterLevel](https://github.com/damienbouffard/WaterLevel)
 * Analysis notebook for levels, weather, map and SWOT: `lake_levels_climatology.ipynb`
 * Analysis notebook for outflow, inflow, surface temperature and evaporation:\
   `lake_outflow_inflow_climatology.ipynb`

@@ -1,0 +1,4 @@
+# Third-party data are kept in the GitHub repository for reproducibility,
+# but excluded from release archives (and therefore from the Zenodo record).
+data/** export-ignore
+data export-ignore
